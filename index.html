@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Python Programming Documentation</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- External Stylesheet -->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- NAVBAR -->
+		<nav id="navbar">
+			<header>Python Programming Docs</header>
+			<a class="nav-link" href="#Introduction_to_Python"
+				>Introduction to Python</a
+			>
+			<a class="nav-link" href="#Variables_and_Data_Types"
+				>Variables and Data Types</a
+			>
+			<a class="nav-link" href="#Control_Flow">Control Flow</a>
+			<a class="nav-link" href="#Functions">Functions</a>
+			<a class="nav-link" href="#Modules_and_Packages">Modules and Packages</a>
+		</nav>
+
+		<!-- MAIN DOCUMENTATION -->
+		<main id="main-doc">
+			<section class="main-section" id="Introduction_to_Python">
+				<header>Introduction to Python</header>
+				<p>
+					Python is a popular, high-level, interpreted programming language
+					known for its simple syntax and readability.
+				</p>
+				<p>It was created by Guido van Rossum and first released in 1991.</p>
+				<p>
+					Python can be used for web development, data analysis, artificial
+					intelligence, and more.
+				</p>
+				<ul>
+					<li>Easy to read and write</li>
+					<li>Interpreted language</li>
+					<li>Supports multiple programming paradigms</li>
+				</ul>
+				<code>print("Hello, World!")</code>
+			</section>
+
+			<section class="main-section" id="Variables_and_Data_Types">
+				<header>Variables and Data Types</header>
+				<p>
+					Variables in Python do not require explicit declaration to reserve
+					memory space.
+				</p>
+				<p>
+					The data type is inferred from the value assigned to the variable.
+				</p>
+				<ul>
+					<li>int</li>
+					<li>float</li>
+					<li>str</li>
+					<li>bool</li>
+					<li>list, tuple, dict, set</li>
+				</ul>
+				<code>x = 5 # int<br />name = "Alice" # str</code>
+				<code>pi = 3.14 # float</code>
+			</section>
+
+			<section class="main-section" id="Control_Flow">
+				<header>Control Flow</header>
+				<p>
+					Control flow statements allow you to execute code blocks conditionally
+					or repeatedly.
+				</p>
+				<p>
+					The most commonly used statements are <code>if</code>,
+					<code>for</code>, and <code>while</code>.
+				</p>
+				<ul>
+					<li>
+						Conditional statements (<code>if</code>, <code>elif</code>,
+						<code>else</code>)
+					</li>
+					<li>Loops (<code>for</code>, <code>while</code>)</li>
+					<li><code>break</code> and <code>continue</code></li>
+				</ul>
+				<code>
+					if x > 0:<br />
+					&nbsp;&nbsp;print("x is positive")
+				</code>
+				<code>
+					for i in range(5):<br />
+					&nbsp;&nbsp;print(i)
+				</code>
+			</section>
+
+			<section class="main-section" id="Functions">
+				<header>Functions</header>
+				<p>
+					Functions are reusable blocks of code that perform a specific task.
+				</p>
+				<p>You can define a function using the <code>def</code> keyword.</p>
+				<ul>
+					<li>Define a function with <code>def</code></li>
+					<li>Use parameters and return values</li>
+					<li>Functions can have default arguments</li>
+				</ul>
+				<code>
+					def greet(name):<br />
+					&nbsp;&nbsp;print(f"Hello, {name}!")
+				</code>
+			</section>
+
+			<section class="main-section" id="Modules_and_Packages">
+				<header>Modules and Packages</header>
+				<p>
+					Modules are files containing Python code, and packages are collections
+					of modules.
+				</p>
+				<p>You can import modules using the <code>import</code> statement.</p>
+				<ul>
+					<li>Import standard library modules</li>
+					<li>Create your own modules</li>
+					<li>Install packages with <code>pip</code></li>
+				</ul>
+				<code>import math<br />print(math.sqrt(16))</code>
+			</section>
+		</main>
+	</body>
+</html>
